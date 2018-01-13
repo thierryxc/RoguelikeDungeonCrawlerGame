@@ -178,7 +178,7 @@ class App extends Component {
           this.getUpstairsPos(this.props.map);
         }
         console.log(info[0]); 
-        if (info[0].floor === 1) {
+        if (info[0].floor === 3) {
           this.getBossPos(this.props.map);
           this.props.dispatch(setBossInfo(BOSS));
         }
